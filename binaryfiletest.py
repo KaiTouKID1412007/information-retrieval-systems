@@ -10,7 +10,7 @@ import os
 import shelve
 import shutil
 
-studentinfo1={'name':'WeiYirui','sex':'Female','Country':'China','City':'Shanghai'}
+studentinfo1={'name':'RuiRui','sex':'Female','Country':'China','City':'Shanghai'}
 # Create /open file
 with shelve.open('test02.bin') as fp: # Create or open a binary file
     fp['1']=studentinfo1  # Write data to a file in dictionary form
